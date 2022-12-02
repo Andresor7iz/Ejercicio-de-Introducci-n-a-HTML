@@ -1,3 +1,27 @@
+/*estilos para colores*/
 .colores {
     color: dodgerblue;
+}
+
+.color-hexadecimal {
+    color: EF767A;
+}
+
+.color-rgb {
+    color: rgb(red, green, blue);
+}
+
+.color-rgba {
+    color: rgba(10, 10, 10, 0.2)
+}
+
+/*fondos*/
+.fondo {
+    /*background-color: coral;*/
+    background-image: url("https://asset.gecdesigns.com/img/backgrounds/modern-crystal-abstract-background-template-1612247149783-cover.webp");
+    background-position: center center;
+}
+
+.fondo-interno {
+    background-image: url("imagenes/fondo\ interno.jpg")
 }
