@@ -17,11 +17,11 @@
 
 /*fondos*/
 .fondo {
-    /*background-color: coral;*/
-    background-image: url("https://asset.gecdesigns.com/img/backgrounds/modern-crystal-abstract-background-template-1612247149783-cover.webp");
-    background-position: center center;
+/*background-color: coral;*/
+background-image: url("https://asset.gecdesigns.com/img/backgrounds/modern-crystal-abstract-background-template-1612247149783-cover.webp");
+background-position: center center;
 }
 
 .fondo-interno {
-    background-image: url("imagenes/fondo\ interno.jpg")
+background-image: url("imagenes/fondo/interno.jpg")
 }
