@@ -19,9 +19,30 @@
 .fondo {
 /*background-color: coral;*/
 background-image: url("https://asset.gecdesigns.com/img/backgrounds/modern-crystal-abstract-background-template-1612247149783-cover.webp");
-background-position: center center;
+background-position: left bottom;
 }
 
 .fondo-interno {
-background-image: url("imagenes/fondo/interno.jpg")
+    background-image: url("imagenes/fondo\ interno.jpg");
+    background-position: left bottom;
+}
+
+/* Tamaños */
+.ancho {
+    background-color: blue;
+    width: 100px;
+}
+
+.alto {
+    background-color: blueviolet;
+    height: 500px;
+    width: 300px;
+}
+
+.tarjeta {
+    border-style: solid;
+    border-color: cornflowerblue;
+    border-width: 1px;
+    padding: 10px 20px;
+    margin: 10px 20px;
 }
