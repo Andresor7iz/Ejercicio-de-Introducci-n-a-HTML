@@ -1,0 +1,9 @@
+.dragon {
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+.galeria {
+    width: 300px;
+    
+}

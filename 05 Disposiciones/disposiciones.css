@@ -1,0 +1,22 @@
+.div-1, 
+.div-2 {
+    background-color: coral;
+    /*EL PUNTO SELECCIONA LAS CLASES Y CON LA COMA SELECCIONA VARIOS*/
+}
+
+.span-1 {
+    background-color: gold;
+    float: left;
+}
+
+.span-2 {
+    background-color: crimson;
+    float: right;
+    /* FLOAT SIRVE PARA UBICAR EN ALGUNA DIRECCION PARA TIPO BLOCK E INLINE*/
+}
+
+.img {
+    width: 300px;
+    height: 200px;
+    display: inline-block;
+}

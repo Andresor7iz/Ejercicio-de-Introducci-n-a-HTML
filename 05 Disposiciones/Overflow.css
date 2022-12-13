@@ -1,0 +1,49 @@
+.contenedor {
+    background-color: darkgreen;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: hidden;
+    color: white;
+}
+
+.contenedor-scroll {
+    margin: 10px 0px;
+    background-color: darkgreen;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: scroll;
+    color: white;
+}
+
+.contenedor-visible {
+    margin: 10px 0px;
+    background-color: darkgreen;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: visible;
+    color: white;
+}
+
+.contenedor-auto {
+    margin: 10px 0px;
+    background-color: darkgreen;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow: auto;
+    color: white;
+}
+
+.contenedor-scroll-x {
+    margin: 10px 0px;
+    background-color: darkgreen;
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    color: white;
+}
