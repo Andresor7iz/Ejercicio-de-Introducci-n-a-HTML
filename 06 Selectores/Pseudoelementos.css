@@ -1,0 +1,53 @@
+.contenedor {
+    width: 300px;
+    height: 100px;
+    background-color: royalblue;
+}
+
+span.frase {
+    font-style: italic;
+    color: white;
+}
+
+/* CON LOS 2 :: SELECCIONA PSEUDOELEMENTOS */
+span.frase::before {
+    content: '<< ';
+    font-size: xx-small;
+}
+
+span.frase::after {
+    content: '>> ';
+    font-size: xx-small;
+}
+
+.libro {
+    background-color: brown;
+    padding: 15px;
+    font-family: Arial;
+}
+
+/* AQUI CON EL PSEUDOELEMENTO FIRST-LETTER AFECTA A LA PRIMERA LETRA DE LOS ELEMENTOS (P) DE LA CLASE LIBRO */
+.libro p::first-letter {
+    font-size: xx-large;
+}
+
+/* AQUI CON EL PSEUDOELEMENTO FIRST-lINE AFECTA A LA PRIMERA LINEA DE LOS ELEMENTOS (P) DE LA CLASE LIBRO */
+.libro p::first-line {
+    color: white;
+}
+
+/* AQUI CON EL PSEUDOELEMENTO SELECTION MARCA EL TEXTO  CON EL COLOR QUE SE HAYA ELEGIDO DE LOS ELEMENTOS (P) DE LA CLASE LIBRO */
+.libro p::selection {
+    background-color: burlywood;
+    color: cyan;
+}
+
+
+/* EL PUNTO (.) SELECCIONA LA CLASE LUEGO ESCRIBIMOS QUE INGRESE A LA UNORDER LIST Y LUEGO A LISTA*/
+.listado ul li::marker {
+    color: red;
+}
+
+.listado ol li::marker {
+    color: blue;
+}

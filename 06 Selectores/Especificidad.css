@@ -1,0 +1,26 @@
+/* (1, 0 ,0)*/
+/* (0, 1 ,0)*/
+/* (0, 0 ,1)*/
+/* (0, 0 ,0)*/
+/* lOS ID SE REFERENCIAN CON #*/
+#h1-id {
+    color: darkred;
+}
+
+/* LA CLASE SE REFERENCIA CON PUNTO (.)*/
+.h1-clase {
+    color: darkgreen;
+}
+
+/* PARA REFERENCIAR UNA ETIQUETA SOLO SE PONE EL NOMBRE DE LA ETIQUETA*/
+h1 {
+    color: blueviolet !important;
+}
+
+h1 {
+    color: darkorange;
+}
+
+p {
+    color:deeppink
+}

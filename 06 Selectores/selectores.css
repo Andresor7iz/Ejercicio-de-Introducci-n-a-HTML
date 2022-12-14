@@ -1,0 +1,16 @@
+.p-contenedor {
+    color: green;
+
+}
+
+/* CUANDO SE QUIERE SELECCIONAR ALGO QUE ESTÁ DENTRO DE UN CONTENEDOR SE USA EL (.CONTENEDOR) Y SE PONE LA ETIQUETA QUE SE QUIERE MODIFICAR */
+/* TAMBIEN SE PUEDE USAR 
+body section.main .contenedor p*/
+.contenedor p {
+    color: green;
+}
+
+/* EN EL CASO DE UN ID SE PONE LO MISMO PERO CON EL # PARA REFERENCIAR EL ID QUE QUEREMOS MODIFICAR */
+.contenedor #boton-contenedor {
+    background-color: blue;
+}

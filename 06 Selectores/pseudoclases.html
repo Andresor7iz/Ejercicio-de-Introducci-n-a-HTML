@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pseudoclases</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .hover {
+            width: 300px;
+            height: 100px;
+            background-color: aquamarine;
+        }
+        .hover:hover { /* Se activa cuando el cursor pase por encima*/
+        background-color: blueviolet;
+        }
+
+        .listado {
+            padding: 15px;
+            background-color: coral;
+        }
+
+        /* SE SELECCIONA LA CLASE O LA ETIQUETA QUE SE VAN A MODIFICAR Y EL ATRIBUTO PARA QUE AFECTE A LAS PRIMERAS DE TODOS LOS (P) EN ESTE CASO */
+        .listado p:first-child {
+            color:chartreuse
+        }
+
+        a:link { /* LINK NO ABIERTO */
+            color: royalblue;
+        }
+
+        a:visited { /* LINK ABIERTO */
+            color: red;
+        }
+
+        a:hover { /* COLOR QUE TOMA AL PASAR EL CURSOR */
+            color: black;
+        }
+
+        a:active { /* COLOR QUE TOMA AL DAR CLICK*/
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div class="hover">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, repudiandae quia sunt ratione ipsam doloremque hic eum, saepe nisi voluptate aliquam enim omnis pariatur dignissimos inventore temporibus.
+        </p>
+    </div>
+    <div class="listado">
+        <p>Párrafo 1</p>
+        <p>Párrafo 2</p>
+        <p>Párrafo 3</p>
+    </div>
+    <div class="enlaces"> 
+        <a href="http://google.com" target="_blank">Enlace a google</a> 
+        <a href="http://google.com" target="_blank">Enlace a GOOGLE</a>
+    </div>
+</body>
+</html>

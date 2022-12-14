@@ -1,0 +1,17 @@
+.contenedor #boton::before {
+    content: "PASA POR ENCIMA";
+}
+
+.contenedor #boton {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    
+}
+
+.contenedor #boton:hover {
+    background-color: green;
+    color: white;
+}
+
