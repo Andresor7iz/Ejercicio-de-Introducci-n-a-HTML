@@ -1,0 +1,50 @@
+.input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid greenyellow;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* PARA INGRESAR AL TIPO DE LA CLASE SE USA [] SEGUIDO DE {} */
+.input[type="password"] {
+    color: red;
+}
+
+.input-moderno {
+    border: none;
+    border-bottom: 1px solid blueviolet;
+    outline: none;
+    padding: 5px;
+    color: blueviolet;
+}
+
+.input-moderno::placeholder {
+    color: rgba(137, 43, 226, 0.357);
+}
+
+.input-moderno:focus {
+    border-bottom: 1px solid rgb(29, 4, 52);
+}
+
+.input-background {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: darkorchid;
+    outline: none;
+    color: white;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.input-background::placeholder{
+    color: white;
+}
+
+.input-search {
+    padding: 10px;
+    border: none;
+    background-color: tomato;
+    border-radius: 8px;
+    margin: 10px;
+}
