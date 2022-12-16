@@ -43,8 +43,21 @@
 
 .input-search {
     padding: 10px;
+    padding-left: 50px;
     border: none;
     background-color: tomato;
     border-radius: 8px;
     margin: 10px;
+    background-image: url(/07\ Formularios/img/radar.png);
+    background-repeat: no-repeat;
+    background-position: 20px;
+}
+textarea {
+    resize: vertical;
+}
+
+select{
+    width: 100%;
+    padding: 15px;
+    background-color: coral;
 }
